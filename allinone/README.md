@@ -14,7 +14,6 @@
 ```
 allinone/
 ├── generate_86_industries_v3.py    # V3 主脚本
-├── generate_86_industries_v2.py    # V2 脚本（参考）
 ├── heatmap_86_v3.html               # 生成的 HTML 示例
 ├── heatmap_86_v3.png                # 生成的 PNG 示例
 ├── raw_86_data_v3.json              # 原始数据缓存
@@ -138,5 +137,5 @@ openclaw gateway restart
 - 输出 PNG 约 1-2 MB
 - V3 截图尺寸较大，生成时间约 10-20 秒
 
-## License
-MIT
+## 灵感与致敬
+https://github.com/cyhzzz/market-breadth-heatmap-skill
