@@ -32,13 +32,12 @@ python3 --version
 node --version
 
 # Playwright (首次运行需要)
-cd /root/.openclaw/workspace/market-breadth-heatmap-skill
 npx playwright install chromium
 ```
 
 ### 一键生成热力图
 ```bash
-cd /root/.openclaw/workspace/market-breadth-heatmap-skill/allinone
+cd allinone
 python3 generate_86_industries_v3.py
 ```
 
@@ -84,8 +83,8 @@ mkdir -p ~/.openclaw/workspace/skills/market-heatmap-v3
 
 ### 2. 复制文件
 ```bash
-cp /root/.openclaw/workspace/market-breadth-heatmap-skill/allinone/generate_86_industries_v3.py ~/.openclaw/workspace/skills/market-heatmap-v3/
-cp /root/.openclaw/workspace/market-breadth-heatmap-skill/assets/capture.js ~/.openclaw/workspace/skills/market-heatmap-v3/
+cp allinone/generate_86_industries_v3.py ~/.openclaw/workspace/skills/market-heatmap-v3/
+cp assets/capture.js ~/.openclaw/workspace/skills/market-heatmap-v3/assets/
 ```
 
 ### 3. 创建 SKILL.md
