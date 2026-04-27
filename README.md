@@ -19,6 +19,8 @@ allinone/
 ├── raw_86_data_v3.json              # 原始数据缓存
 └── output/                          # 输出目录
     └── heatmap_86_v3_*.html/png     # 每次运行的输出
+
+26年4月27日更新：上传了一个带飞书群id发送和小红书推文发送的优化脚本“generate_86_industries_xhs.py”
 ```
 
 ## 快速开始
